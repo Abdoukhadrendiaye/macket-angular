@@ -1,0 +1,40 @@
+.container{
+  width: 25%;
+  height: 50%;
+  margin-top: 5%;
+
+}
+
+.field{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 20px;
+  padding: 1em;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #fff;
+  box-shadow: inset 1px 2px 2px rgb(106, 208, 71);
+}
+.btn{
+width: 100%;
+border-radius: 10px;
+font-size: 1.3rem;
+margin-bottom: 1.2rem;
+
+}
+.login a{
+  color: black;
+  text-decoration: none;
+margin-bottom: 1.2rem;
+
+}
+.singup{ 
+  margin-right: 7rem;
+  margin-left: 1rem;
+}

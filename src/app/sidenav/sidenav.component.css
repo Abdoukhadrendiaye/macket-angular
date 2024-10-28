@@ -1,0 +1,79 @@
+.container{
+    height: 100%;
+    margin-top: 10px;
+
+}
+
+.icon{
+  color: #185c2b;
+
+}
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 235px;
+    position: fixed;
+    overflow: auto;
+    font-size: 1.2rem;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: rgb(12, 42, 11);
+    padding: 32px;
+    text-decoration: none;
+  }
+  .sidebar a svg{
+    margin: 3px;
+
+  }
+  .table{
+    height: 20rem;
+    padding-top: 10px;
+
+  }
+  .deuxieme{
+    width: 55.7rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+  .deuxieme .model{
+    border-bottom: 1px solid;
+        
+  }
+.table tr{
+    padding-bottom: 20%;
+  }
+   .btn{
+    margin:2rem;
+    margin-left: 35rem;
+    border-radius: 10px;
+   }
+   .action{
+    margin: 0.7rem;
+   }
+  .sidebar a.active {
+    text-decoration: underline;
+    color: rgb(28, 89, 30);
+  }
+  
+
+  
+
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
